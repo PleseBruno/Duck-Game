@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane fx:id="stage" maxHeight="400" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.fer.projekt.controllers.StartController">
+    <children>
+        <Pane maxHeight="400" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400" prefWidth="600.0">
+            <Rectangle fx:id="nebo" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" layoutY="200.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="600.0" />
+            <Rectangle fx:id="more" arcHeight="5.0" arcWidth="5.0" fill="LIGHTBLUE" height="200.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="600.0" />
+            <Rectangle fx:id="player" arcHeight="5.0" arcWidth="5.0" fill="#fcba03" height="44.0" layoutX="73.0" layoutY="178.0" stroke="BLACK" strokeType="INSIDE" width="57.0" />
+         <effect>
+            <GaussianBlur radius="12.5" />
+         </effect>
+        </Pane>
+        <Pane prefHeight="400.0" prefWidth="600.0">
+         <children>
+             <Button fx:id="play" layoutX="350" layoutY="250" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" onAction="#playButton" text="Play" />
+             <Button fx:id="aiPlay" layoutX="150" layoutY="250" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" onAction="#aiPlayButton" text="AI Mode" />
+             <Label styleClass="text-field" prefHeight="154.0" prefWidth="600.0" text="THE Duck Game">
+              </Label>
+         </children></Pane>
+    </children>
+</AnchorPane>

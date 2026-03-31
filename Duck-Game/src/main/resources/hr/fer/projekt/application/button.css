@@ -1,0 +1,25 @@
+
+@font-face {
+    font-family: 'Stepalange';
+    src: url('../../../../fonts/Stepalange.otf');
+}
+
+.label{
+    -fx-font-family: "Stepalange";
+    -fx-font-size: 70;
+    -fx-background-color: transparent;
+    -fx-alignment: center;
+    -fx-text-fill: BLACK;
+    -fx-effect: dropshadow(one-pass-box, HOTPINK, 0, 0, 2, 2);
+}
+
+.button{
+    -fx-font-family: "Stepalange";
+    -fx-background-color: HOTPINK;
+    -fx-border-insets: -2;
+    -fx-border-width: 2.5;
+    -fx-border-color: BLACK;
+    -fx-border-radius: 50;
+    -fx-background-radius: 50;
+    -fx-font-size: 22.5;
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="stage" maxHeight="100" maxWidth="200" minHeight="100.0" minWidth="200.0" onKeyPressed="#keyPressed" onKeyReleased="#keyReleased" prefHeight="100" prefWidth="200" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.fer.projekt.controllers.Controller">
+</AnchorPane>
